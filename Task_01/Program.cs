@@ -12,5 +12,5 @@ if (second * second == first)
 }
 else
 {
-    Console.WriteLine($"Нет, первое число не является квадратом второго: {second} * {second} = {first}");
+    Console.WriteLine($"Нет, первое число не является квадратом второго: {second} * {second} != {first}");
 }
