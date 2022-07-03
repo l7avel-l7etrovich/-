@@ -9,7 +9,11 @@ int num1 = Convert.ToInt32(Console.ReadLine());
 Console.Write(" Ввдите второе число! ");
 int num2 = Convert.ToInt32(Console.ReadLine());
 
-if ( num1 > num2 );
+if ( num1 < num2 )
 {
-    Console.Write($"Второе число больше первого {num1 > num2}");
+    Console.Write($"Второе число больше первого: {num1} < {num2} ");
+}
+else 
+{
+    Console.WriteLine($" Первое число больше второго : {num1} > {num2} ");
 }
