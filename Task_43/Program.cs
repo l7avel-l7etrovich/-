@@ -19,7 +19,7 @@ if (k1 != k2)
 {
     
     x = (b2 - b1) / (k1 - k2);
-    y = k2 * y + b2;
+    y = k2 * x + b2;
 
     Console.WriteLine($"Точка пресечения {x} -> X и {y} -> Y ");
 }
